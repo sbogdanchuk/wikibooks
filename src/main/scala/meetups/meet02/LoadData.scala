@@ -1,4 +1,3 @@
-package org.wikibooks
 package meetups.meet02
 
 import org.slf4j.LoggerFactory
