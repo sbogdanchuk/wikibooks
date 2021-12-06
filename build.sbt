@@ -2,7 +2,7 @@ name := "wikibooks"
 
 version := "0.1"
 
-Compile/mainClass := Some("org.wikibooks.meetups.meet02.LoadData")
+Compile/mainClass := Some("meetups.meet02.LoadData")
 
 addDependencyTreePlugin
 
