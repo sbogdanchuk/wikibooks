@@ -2,6 +2,8 @@ name := "wikibooks"
 
 version := "0.1"
 
+Compile/mainClass := Some("org.wikibooks.meetups.meet02.LoadData")
+
 addDependencyTreePlugin
 
 scalaVersion := "2.12.10"
