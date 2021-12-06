@@ -10,8 +10,6 @@ scalaVersion := "2.12.10"
 val AkkaVersion = "2.6.17"
 val AkkaHttpVersion = "10.2.7"
 
-idePackagePrefix := Some("org.wikibooks")
-
 //excludeDependencies += "commons-logging" % "commons-logging"
 excludeDependencies ++= Seq(
   ExclusionRule(organization="org.apache.logging.log4j", name="log4j-slf4j-impl")
